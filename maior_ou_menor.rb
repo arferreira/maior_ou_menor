@@ -18,8 +18,9 @@ puts  "Será que você acertou? Você escolheu o número: " + kick
 
 # controle de condição do chute 
 
-if kick == number_secret
+hit =  kick == number_secret
 
+if hit
 	puts "Parabéns, você acertou :)"
 else
 	puts "Humm... você errou :("
