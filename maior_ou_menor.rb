@@ -14,4 +14,15 @@ puts "Escolha um número: "
 kick = gets
 # convertendo a string para inteiro
 kick = kick.to_i
-puts  "Será que você acertou? Você escolher o número: " + kick
+puts  "Será que você acertou? Você escolheu o número: " + kick
+
+# controle de condição do chute 
+
+if kick == number_secret
+
+	puts "Parabéns, você acertou :)"
+else
+	puts "Humm... você errou :("
+end
+
+
