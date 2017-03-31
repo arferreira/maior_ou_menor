@@ -14,3 +14,13 @@ puts "Escolhendo um número secreto entre 0 e 200..."
 number_secret = 178
 puts "Escolhido.. Que tal adivinhar hoje nosso número secreto.?"
 
+
+puts
+puts
+puts
+puts
+puts
+puts "Tentativa 1"
+puts "Escolha um número: "
+kick = gets
+puts  "Será que você acertou? Você escolher o número: " + kick
