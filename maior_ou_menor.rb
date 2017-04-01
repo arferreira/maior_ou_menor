@@ -21,7 +21,7 @@ end
 
 
 
-def get_number(attempt, limit)
+def get_number attempt, limit 
 puts "\n\n\n\n"
 puts "Tentativa " + attempt.to_s + " de " + limit.to_s
 puts "Escolha um número: "
@@ -32,7 +32,7 @@ kick
 end
 
 
-def verify(kick, number_secret)
+def verify kick, number_secret
 
 hit =  kick == number_secret
 
@@ -66,11 +66,9 @@ limit = 10
 for attempt in 1..limit
 
 
-kick = get_number(attempt, limit)
+kick = get_number attempt, limit 
 
- if verify(kick, number_secret)
-	break
- end
+break  if verify kick, number_secret 
 
 end
 
